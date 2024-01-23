@@ -24,31 +24,37 @@
   height: 80px;
 }
 .banner_buttons {
-  cursor: pointer;
-  color: #fff;
-  outline: none;
-  border: none;
-  font-size: 1.2rem;
-  font-weight: 700;
-  border-radius: 0.2vw;
-  padding: 1rem 3rem;
-  margin-right: 2rem;
-  background-color: rgba(51, 51, 51, 0.5);
+  display: flex;
+  gap: 20px;
 }
+
 .banner_button {
-  color: #000;
-  background-color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
 }
-.play {
-  color: #000;
-  background-color: #fff;
-  
+
+.banner_button.play {
+  background-color: #52838D;
+  color: #ffffff;
 }
+
+.banner_button.play:hover {
+  background-color: #ea1111;
+}
+
+.banner_button {
+  background-color: #02333D;
+color: #ffffff;  
+}
+
 .banner_button:hover {
-  color: #000;
-  background-color: #c6c6c6;
-  
+  background-color: #ea1111;
 }
+
 .banner_fadebottom {
   height: 40vh;
   background-image: linear-gradient(
